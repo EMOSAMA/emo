@@ -8,7 +8,7 @@ header-img: img/unimelb-bd.png
 catalog: true
 tags:
 - Blockchain
-- Casper
+- Consensus Algorithm
 - UniMelb
 - Assignment
 ---
