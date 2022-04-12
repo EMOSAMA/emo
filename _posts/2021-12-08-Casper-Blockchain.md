@@ -9,6 +9,7 @@ catalog: true
 tags:
 - Blockchain
 - Consensus Algorithm
+- Casper
 - UniMelb
 - Assignment
 ---
