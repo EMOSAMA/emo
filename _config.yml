@@ -56,9 +56,9 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# gitalk:
-#   enable: false
-#   disqus_username: disqus_8bLZnQiG01
+gitalk:
+  enable: false
+  disqus_username: disqus_8bLZnQiG01
 
 # Gitalk
 gitalk:
