@@ -63,8 +63,8 @@ disqus:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f0c30ab0352d7a74596c                           #生成的clientID
-  clientSecret: c064b8863bcc3915e7dcac57d1b88e19c20ccbb7    #生成的clientSecret
+  clientID: 3f38707b17ac0960b597                            #生成的clientID
+  clientSecret: dcd53eff1966fc17dfd8f30f1713e76d090cc4bf    #生成的clientSecret
   repo: emosama.github.io    #仓库名称
   owner: EMOSAMA    #github用户名
   admin: EMOSAMA
