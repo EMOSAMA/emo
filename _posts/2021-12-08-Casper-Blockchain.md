@@ -173,7 +173,7 @@ Regard each stage mentioned above as a sprint, and each sprint last 5 days. The 
 
 *Figure 4 – Class Diagram* All discussion below is based on the Class Diagram in Figure 4. 
 
-##### 4-4-4-1. Characters
+**Characters**
 
 There are three main characters in our application, user, miner, and validator. Both miner and validator are the subclass of user. Both miner and validator contain a counter which can count the received vote and record vote history of each voter. But only validator in dynasty can do vote. 
 
@@ -195,15 +195,15 @@ There are three main characters in our application, user, miner, and validator. 
 
 *Figure 7 – Vote Supermajority Link Sequence Chart* 
 
-##### 4-4-4-2. Networks 
+**Networks** 
 
 The network in our application is a full connected network. Each User will hold a Node which contains  socket.  Each  Node  keeps  multiple  connection  channels,  each  connection  channel  is connected to another Node. If there are 5 Nodes, each Node will keep 4 connection channels. The connection channels are defined in file NodeConnection.py. 
 
-##### 4-4-4-3. Dynasty 
+**Dynasty** 
 
 The Dynasty defined the validator set which contain validators who can do vote. A list keeps here which contain all the dynasties. Each dynasty contains three sub list, the first list is the Newer list, the second list is the Member list, and the third list is the retired list. If a validator asks to join at dynasty N, it will be added to the Newer list of Dynasty N+2, and it will be moved to the Member list at Dynasty N+3. A validator asks to quit at Dynasty N, it will be moved to Retired list from Member list at dynasty N+2 and it will be removed from Retired list at dynasty N+3. The forward validator set is consisting of the Newer list and the Member list. The rear validator set is consisting of the Member list and the Retired list. A supermajority link can be evaluated only when both forward validator ser and rear validator set pass 2/3 votes.  
 
-##### 4-4-4-4. Web App
+**Web App**
 
 The web application is a HTML page which generate by python script, it can interact with the provided APIs which defined in generator.py file. The representation of this web page is shown in Figure 8. Different color present different identity, for example, the orange block means finalized checkpoint. If you traverse the main chain from head to root, you will only find a unique path which pass all finalized checkpoint.  
 
