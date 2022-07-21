@@ -50,7 +50,11 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+  line_numbers: table
+  bold_every: 5
+  header_offset: 2
 
 
 
