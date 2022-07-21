@@ -52,9 +52,6 @@ highlighter: rouge
 kramdown:
   header_offset: 2
   syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
 
 
 
