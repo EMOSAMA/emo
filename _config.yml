@@ -50,9 +50,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  header_offset: 2
-  syntax_highlighter: coderay
-
+  input: Kramdown
 
 
 # 评论系统
