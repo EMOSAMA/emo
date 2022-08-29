@@ -66,7 +66,7 @@ enum ProposalState {
 ### 事件分析
 Governor中的event事件主要有两类，这些时间的抛出都是在 **功能模块** 中的函数里抛出的
 
-- **和Proposal状态相关的事件**
+#### 和Proposal状态相关的事件
 ```solidity
 event ProposalCreated( // 当一个proposal被创建的时候抛出
 	uint256 proposalId,
@@ -89,7 +89,7 @@ event ProposalExecuted( // 当proposal被执行的时候抛出
 );
 ```
 
-- **和vote投票相关的事件**
+#### 和vote投票相关的事件
 ```solidity
 event VoteCast( // 投票的时候抛出
 	address indexed voter, 
