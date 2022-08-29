@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      OpenZeppelin分析三
+subtitle:   Governance源码解析
+date:       2022-08-29
+author:     Emo
+header-img: img/unimelb-bd.png
+catalog: true
+mermaid: true
+tags:
+- OpenZeppelin
+---
+
+> OpenZeppelin
+> 
+> [EMO's Blog](https://emosama.github.io/)
+
 # 简介
 Governance板块，主要是为了方便用户构建自己的治理合约。所谓的治理合约，其实就是围绕 Proposal 展开的，简要归纳下来它的流程如下
 1. 提起 Proposal
