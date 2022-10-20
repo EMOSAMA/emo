@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      chainlink源码分析二
+subtitle:   LinkToken源码解析
+date:       2022-10-10
+author:     Emo
+header-img: img/unimelb-bd.png
+catalog: true
+tags:
+- chainlink
+- Oracle
+---
+
+> chainlink源码分析
+>
+> [EMO's Blog](https://emosama.github.io/)
+
 # 简介
 link token 是继承于 ERC677 的一个代币合约。ERC677 和 ERC20 比较相似，只不过 ERC677 增加了 transferAndCall 方法，支持在代币转账的时候调用特定的函数。这个代币合约比较简单，大概看看代码就好。
 
