@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      chainlink源码分析一
+subtitle:   chainlink总览
+date:       2022-10-09
+author:     Emo
+header-img: img/unimelb-bd.png
+catalog: true
+tags:
+- chainlink
+- Oracle
+---
+
+> chainlink源码分析
+>
+> [EMO's Blog](https://emosama.github.io/)
+
 # 预言机简介
 在区块链当中，我们需要任何一次操作产生的结果都是具备确认性的。也就是，任何节点任何事件执行操作产生的结果都是确定的。只有这样，区块链才能验证操作并达成一致。
 
